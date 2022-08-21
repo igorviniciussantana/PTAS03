@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="../../images/logo.png"
+      type="image/x-icon"
+    />
     <title>igorMail - Autenticar</title>
-</head>
-<body>
-    
-<div class="container">
+  </head>
+  <body>
+    <div class="container">
+      <img src="../../images/logo.png" alt="logo" class="logo" />
 
+      <form action="/logar" method="post">
+        <h1>ENTRAR AGORA</h1>
 
+        <label for="login">Nome de Usuário</label>
+        <input
+          type="text"
+          name="login"
+          placeholder="Insira seu nome de usuário"
+        />
 
-    <form action="/logar" method="post">
+        <label for="password">Senha</label>
+        <input type="password" placeholder="Insira sua Senha" />
 
-<h1>ENTRAR AGORA</h1>
+        <button type="submit">Entrar</button>
 
-<label for="login">Nome de Usuário</label>
-<input type="text" name="login" placeholder="Insira seu nome de usuário">
+        <a href="/inscrever">Não tenho cadastro :(</a>
+      </form>
 
-<label for="password">Senha</label>
-<input type="password" placeholder="Insira sua Senha">
+      <div class="social">
+        <img src="../../images/twitter_icon.svg" alt="" srcset="" />
+        <img src="../../images/instagram_icon.svg" alt="" srcset="" />
+        <img src="../../images/facebook_icon.svg" alt="" srcset="" />
+      </div>
+    </div>
 
-<button type="submit">Entrar</button>
-
-<a href="/inscrever">Não tenho cadastro :(</a>
-
-    </form>
-
-
-
-
-
-
-</div>
-
-<script src="scripts.js"></script>
-    
-</body>
+    <script src="scripts.js"></script>
+  </body>
 </html>
