@@ -13,9 +13,9 @@
 }
 
 .logo {
-  max-width: 6vw;
+  max-width: 4vw;
 
-  filter: brightness(360%);
+  filter: brightness(100);
 
   margin-bottom: 10px;
 
@@ -47,6 +47,7 @@ form {
   background: rgba(255, 255, 255, 0.08);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
   backdrop-filter: blur(14.6px);
   -webkit-backdrop-filter: blur(14.6px);
   border: 1px solid rgba(255, 255, 255, 0.14);
@@ -59,6 +60,13 @@ form {
   padding: 10px;
 
   row-gap: 10px;
+}
+
+form hr{
+
+  border: 1px solid rgba(255, 255, 255, 0.152);
+  
+
 }
 
 form input[type="text"],
@@ -95,6 +103,7 @@ form button {
   font-weight: 600;
   cursor: pointer;
   transition: 500ms;
+  padding: 10px 0;
 }
 
 form button:hover {
@@ -115,7 +124,7 @@ a {
 }
 
 .social img {
-  width: 8%;
+  width: 2.4vw;
   cursor: pointer;
   transition: 500ms;
 }
